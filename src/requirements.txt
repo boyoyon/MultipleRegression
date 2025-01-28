@@ -1,0 +1,10 @@
+pandas
+matplotlib
+japanize_matplotlib
+catboost
+scikit-learn
+ngboost
+
+
+
+
