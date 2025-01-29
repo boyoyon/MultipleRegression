@@ -27,19 +27,29 @@
             <br>
         </p>
         <h2>使い方</h2>
+        <h3>CatBoost Regressor</h3>
         <p>
-            ・CatBoost Regressor<br>
-            　python src\plot3D_CatBoostRegressor.py<br>
+            ・学習～モデルのセーブ～プロット<br>
+            　python src\train_CatBoostRegressor.py<br>
             <br>
-            ・ExtraTrees Regressor<br>
-            　python src\plot3D_ExtraTreesRegressor.py<br>
+            ・モデルのロード～売上予測<br>
+            　python src\predict_CatBoostRegressor.py (最高気温) (通行人数) [(モデルファイル名)]<br>
+        </p>
+        <h3>ExtraTrees Regressor</h3>
+        <p>
+            ・学習～モデルのセーブ～プロット<br>
+            　python src\train_ExtraTreesRegressor.py<br>
             <br>
-            ・NGBoost Regressor<br>
-            　python src\plotD_NGBoostRegressor.py<br>
+            ・モデルのロード～売上予測<br>
+            　python src\predict_ExtraTreesRegressor.py (最高気温) (通行人数) [(モデルファイル名)]<br>
+        </p>
+        <h3>NGBoost Regressor</h3>
+        <p>
+            ・学習～モデルのセーブ～プロット<br>
+            　python src\train_NGBoostRegressor.py<br>
             <br>
-            ・Open3Dを使ってデータを確認する場合は<br>
-            　pip install open3d<br>
-            　python src\Visualize3D_data_by_open3d.py<br>
+            ・モデルのロード～売上予測<br>
+            　python src\predict_NGBoostRegressor.py (最高気温) (通行人数) [(モデルファイル名)]<br>
         </p>
     </body>
 </html>
